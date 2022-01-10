@@ -1,0 +1,74 @@
+html,body {font-family: "Times New Roman", "Times", serif; margin:0;}
+a {color:#000; text-decoration:none;}
+a:hover {color:red;}
+u {font-size: 120%; font-weight: normal;}
+
+#about h1 {text-align:center;}
+#about h1,
+#about h3 {font-size: 3vw; font-weight: 500;}
+#about b {
+  font-weight: 500;
+  display:inline-block;
+  color:red;
+  border:solid red;
+  border-radius:50%;
+  text-decoration:none;
+  font-family: "Times New Roman", "Times", serif;
+  font-style:italic;
+}
+
+#about {
+  position: relative;
+  width:100%;
+  padding:5vh 0;
+  margin:0;
+}
+#about #purpose {
+  width:85%;
+  padding:0 2.5%;
+  margin:auto;
+  border:solid 0.25vw #000;
+}
+#about #contents {
+  width:85%;
+  padding:2.5%;
+  margin:2.5% auto;
+  font-size:2.5vw;
+}
+#about #more {
+  width:90%;
+  margin: auto;
+  clear:both;
+  font-size:1.75vw;
+}
+#about #more p {padding:0 2.5%;}
+#about #more .menu {
+  display:block;
+  padding:2.5%;
+  width:25%;
+  float:left;
+  font-size:2vw;
+}
+#about #more .text {
+  margin-top:2.5%;
+  padding:2.5% 0;
+}
+#about #more ol,
+#about #more ul {
+  margin:7.5%;
+}
+#about #more .text .small {zoom:90%;}
+#about #more .jp {max-width:35rem; float:left;}
+#purpose i {font-size:105%}
+
+
+@media print{
+#about #purpose {zoom:75%;}
+.page {min-height:90vh;}
+}
+
+@media screen and (max-width: 1000px){
+}
+
+@media screen and (max-width: 500px){
+}
