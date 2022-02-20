@@ -20,55 +20,36 @@
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-<link rel="icon" href="imagine/logo.png">
-<link rel="stylesheet" href="css"/>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="styles.css"/>
 
 <style>
-html,body {
-  font-family: "Times New Roman", "Times", serif;
-  margin:0; padding:0;
-}
-.pehu {
-  font-size: 120%;
-  font-weight: normal;
-  font-family:"MS Mincho";
-}
-h1 {
-  font-size: 2.5vw;
-  text-align:center;
-  font-weight: 500;
-  letter-spacing: 0.01rem;
-}
-a {
-  color:#000;
-  text-decoration:none;
-}
-a:hover {color:red;}
+
 #page_cover {
   position:relative;
   width:100%;
   height:100vh;
   margin:0; padding:0;
 }
-#menu {position:fixed;}
-#headline,
-#inside,
-#qr
-{position:absolute;}
-#menu,
 #headline,
 #inside,
 #qr {
+  position:absolute;
   margin:0; padding:0;
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
 }
-#headline {top: 25%; left: 50%; z-index:5; width:75%;}
+#headline {
+  top: 25%;
+  left: 50%;
+  z-index:5;
+  width:75%;
+}
 #qr {
-  width:55vw;
   top: 60%;
   left: 50%;
   z-index:25;
+  width:55vw;
 }
 #you {
   position:absolute;
@@ -94,10 +75,25 @@ a:hover {color:red;}
 </head>
 
 <body>
+
+<h2 class="top">
+<a onclick="obj=document.getElementById('menu').style; obj.display=(obj.display=='block')?'none':'block';">
+<u>How to</u>
+</a>
+</h2>
+<div id="menu">
+  <span>Under Construction</span>
+  <!--
+    <span><a href="#introduction">Introduction</a></span>
+    <span><a href="">10 Questions</a></span>
+    <span><a href="">50 Questions</a></span>
+  -->
+</div>
+
 <div id="page_cover">
 <h1 class="print">The Answers are always inside of you</h1>
 <a href="http://ichoose.pe.hu/"><h1 id="headline">ichoose.pe.hu</h1></a>
-<h1 id="qr"><img src="/imagine/qr.png" width="100%"></h1>
+<h1 id="qr"><img src="qr.png" width="100%"></h1>
 <div id="you">
 <h1>by creative, community space <b class="pehu"><a href="https://creative-community.space/pehu/">∧°┐</a></b></h1>
 </div>

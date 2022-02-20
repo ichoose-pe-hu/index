@@ -33,7 +33,16 @@ fclose($fp);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="i chooseは、創造的チャレンジへの積極性を養い、従来の価値観／方法にとらわれない開かれた考え方を養うことを目的とする創造的娯楽ゲームです。">
-
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("#introduction").load("/about/");
+$("#faqs").load("/collection/faqs.html");
+$("#howto_q").load("/50q/howto.html");
+})
+</script>
 <title>ichoose | The Answers are always inside of you</title>
 <link rel="stylesheet" type="text/css" href="/10q/list.css" />
 <link rel="icon" href="/imagine/logo.png">
