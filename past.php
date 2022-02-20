@@ -32,7 +32,7 @@ fclose($fp);
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="ichooseは、創造的チャレンジへの積極性を養い、従来の価値観／方法にとらわれない開かれた考え方を養うことを目的とする創造的娯楽ゲームです。">
+<meta name="description" content="i chooseは、創造的チャレンジへの積極性を養い、従来の価値観／方法にとらわれない開かれた考え方を養うことを目的とする創造的娯楽ゲームです。">
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -59,7 +59,7 @@ h1 {
   font-weight: 500;
   letter-spacing: 0.01rem;
 }
-h1 b {
+.pehu {
   font-size: 120%;
   font-weight: normal;
   font-family:"MS Mincho";
