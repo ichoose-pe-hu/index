@@ -79,10 +79,10 @@ fclose($fp);
 
 <div id="credit">
 <div id="who">
-<p class="name"><u>Co-Founder of Pehu and Nice shop su</u>
+<p class="name"><u>Creative Directer / Co-Founder of Pehu</u>
 <br>ささじまかずま<br>Kazuma Sasajima</p>
 <div class="message">
-<h2>展覧会／音楽会の企画、出版物の制作、ウェブマスター。ナイスショップスーのオーナー</h2>
+<h2>ペフの共同設立者。展覧会／音楽会の企画、出版物の制作、ウェブマスター</h2>
 I wanna be a creative director.
 </div>
 <p class="link">
