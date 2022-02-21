@@ -150,19 +150,12 @@ Let's see what type you might be.<br/>
 </div>
 <div id="your"></div>
 <p id="re"><a href="#1">Re-Start</a></p>
-<p id="tips"><a onclick="obj=document.getElementById('today').style; obj.display=(obj.display=='block')?'none':'block';">Tips</a></p>
 
 <div id="back">
 <h3>We create a collection of<br/><i><a href="https://creative-community.space/50q/">50 Questions</a></i></h3>
 <h1>This 50 Questions Curated by creative, community space <a class="pehu" href="https://creative-community.space/pehu/">∧°┐</a></h1>
 </div>
 <img src="greeting.jpg" width="100%">
-
-<div id="today">
-<div id="inside">
-<iframe src="tips.html" frameborder="0">読み込んでいます…</iframe>
-</div>
-</div>
 
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript" src="http://ichoose.pe.hu/js/main.js"></script>
