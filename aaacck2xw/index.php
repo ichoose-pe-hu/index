@@ -137,7 +137,6 @@ Let's see what type you might be.<br/>
 <h1>This 50 Questions Curated by creative, community space <a class="pehu" href="https://creative-community.space/pehu/">∧°┐</a></h1>
 </div>
 <img src="greeting.jpg" width="100%">
-<video controls playsinline src="1080p.mov" width="100%"></video>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript" src="http://ichoose.pe.hu/js/main.js"></script>
 <script type="text/javascript" src="http://ichoose.pe.hu/js/jquery.arctext.js"></script>
