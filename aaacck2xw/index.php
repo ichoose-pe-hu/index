@@ -41,7 +41,7 @@ fclose($fp);
 <style>
 #today {
   position:fixed;
-  z-index:10;
+  z-index:100;
   top:0; left:0;
   width:100%;
   height:100vh;
@@ -51,7 +51,6 @@ fclose($fp);
   top: 50%;
   left: 50%;
   z-index:25;
-  z-index:100;
   height: 75vh;
   width: 75%;
   position:absolute;
