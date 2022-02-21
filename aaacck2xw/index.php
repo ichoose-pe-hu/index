@@ -38,6 +38,28 @@ fclose($fp);
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="styles.css" />
 <link rel="stylesheet" type="text/css" href="/50q.css" />
+<style>
+#today {
+  position:fixed;
+  z-index:10;
+  top:0; left:0;
+  width:100%;
+  height:100vh;
+  display:none;
+}
+#inside {
+  top: 50%;
+  left: 50%;
+  z-index:25;
+  z-index:100;
+  height: 75vh;
+  width: 75%;
+  position:absolute;
+  margin:0; padding:0;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+</style>
 <title>Answer 50 Questions | by creative, community space ∧°┐</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
