@@ -65,7 +65,6 @@ fclose($fp);
 <script type="text/javascript">
 $(function(){
 $("#your").load("type.php");
-$("#inside").load("https://creative-community.space/50q/tips.html");
 })
 </script>
 
@@ -159,6 +158,13 @@ Let's see what type you might be.<br/>
 <h1>This 50 Questions Curated by creative, community space <a class="pehu" href="https://creative-community.space/pehu/">∧°┐</a></h1>
 </div>
 <img src="greeting.jpg" width="100%">
+
+<div id="today">
+<div id="inside">
+<iframe src="tips.html" frameborder="0">読み込んでいます…</iframe>
+</div>
+</div>
+
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript" src="http://ichoose.pe.hu/js/main.js"></script>
 <script type="text/javascript" src="http://ichoose.pe.hu/js/jquery.arctext.js"></script>
