@@ -94,7 +94,7 @@
   -->
 </div>
 
-<div id="page_cover">
+<div id="page_cover" class="randomImg">
 <h1 class="print">The Answers are always inside of you</h1>
 <a href="http://ichoose.pe.hu/"><h1 id="headline">ichoose.pe.hu</h1></a>
 <h1 id="qr"><img src="qr.png" width="100%"></h1>
@@ -111,6 +111,25 @@
   $(function(){
   $("#introduction").load("imagine/");
   })
+</script>
+<script>
+  const sampleImg = [
+  "imagine/000.jpeg"
+  ];
+  
+  function sample(randomArray) {
+    var random =
+    randomArray[Math.floor(Math.random() * randomArray.length)];
+    console.log(random);
+    return random;
+  }
+  function imgGenerator() {
+    var img = `<img src="${sample(sampleImg)}">`;
+    document.querySelector("#page_cover").innerHTML = img;
+  }
+  window.setInterval(function() {
+    imgGenerator();
+  }, 1000);
 </script>
 </body>
 </html>
