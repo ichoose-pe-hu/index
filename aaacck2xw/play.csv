@@ -1,0 +1,50 @@
+1,Do you like speaking loud?,大きな声出すの好き？,yes,はい,no,いいえ,3,6,none
+2,Which do you prefer?,どっちが好き？,(^ω^),(^ω^),(^.^),(^.^),4,9,none
+3,Do you want to break it?,壊してみたい？,yes,はい,no,いいえ,8,2,none
+4,Have you ever punched somebody?,人を殴ったことがある,yes,はい,no,いいえ,11,9,none
+5,Which do you prefer?,大きいものと小さいものどっちが好き？,big thing,大きいもの,small thing,小さいもの,6,7,none
+6,Which describe your relationship with big trees better?,大きな木に,want to be them,なりたい,want to touch them,触りたい,11,10,none
+7,Have you ever found a 4 leaf clover?,四つ葉のクローバー見つけたことある？,yes,はい,no,いいえ,12,15,img/clover.JPG
+8,Which do you prefer?,吸うのと吐くのどっちが好き？,breath in,吸う,breath out,吐く,13,10,img/breath.JPG
+9,Have you ever acted as a bad person?,ギャルor ヤンキーしたことある？,yes,はい,no,いいえ,12,5,img/puri.JPG
+10,Which do you prefer to be given?,もらうならどっち？,certificate,表彰状,medal,メダル,16,7,none
+11,Have you ever earned money by lying?,嘘をついてお金をもらったことがある,yes,はい,no,いいえ,14,8,none
+12,A coin is on the ground. What would you do?,コインが落ちています。どうする？,pick up,拾う,stand it,立てる,14,17,img/coin.JPG
+13,Do you want to stand up?,立ちたい？,yes,はい,no,いいえ,18,15,none
+14,Do you think you are not believing in people?,人を信じていない,yes,はい,no,いいえ,20,13,none
+15,Do you have somebody you want to believe?,信じていたい人がいる,yes,はい,no,いいえ,19,20,none
+16,Do you consider everything  is beautiful?,すべてのものってきれいだと思う？,yes i do,はい,no i don't,そうとは言えない,19,22,none
+17,Would you marry Tatsuro Yamashita if possible?,できたら山下達郎さんと結婚したかった？,yes,はい,no,いいえ,21,16,none
+18,Now I can,今なら？,say it,言える,not say it,言えない,24,20,none
+19,Do you think somebody will do it?,誰かがやってくれるって思う?,yes,はい,no,いいえ,18,26,none
+20,Do you know your parents' birthdays?,親の誕生日を知っていますか？,yes,はい,no,いいえ,21,25,none
+21,Do you know where dog's eyes go when they sleep?,犬が寝るとき目がどこに行くか知ってる？,yes,はい,no,いいえ,23,22,img/dog.JPG
+22,Do you think you've already met an alien before?,宇宙人にもう既に会っていると思う？,yes,はい,no,いいえ,27,26,none
+23,What's Hayabusa?,はやぶさって何？,asteroid explorer,小惑星探査機,a trick of jumping rope,縄跳びの技,24,30,none
+24,Do you think you are alive 10 years later?,10年後生きてると思う？,yes,はい,no,いいえ,32,28,none
+25,Do you think both 100 year before and after now are not different from now,100年前も100年後も今と変わらない,yes,はい,no,いいえ,29,23,none
+26,Do you blame yourself?,それは自分のせいだと思う？,yes,はい,no,いいえ,32,25,none
+27,Are you the very center of this world?,自分中心に世界は回ってる？,yes,はい,no,いいえ,31,28,none
+28,Are you lying?,嘘ついてる？,yes,はい,no,いいえ,33,29,none
+29,Do you feel uncomfortable when you leave food?,ご飯を残すのに抵抗がある,yes,はい,no,いいえ,36,30,none
+30,Which attracts you more?,どっちに惹かれる？,Bubble Tea,タビオカミルクティー,Yogurt with Nata de coco,ナタデココ入りヨーグルト,31,35,none
+31,If you are in a green field then you'd...,広い草原を,Run,走りたい,enjoy the scenery,眺めたい,33,34,none
+32,Do you like the color green?,緑色って好き？,yes,はい,no,いいえ,37,27,img/green.JPG
+33,Which describes you better,どっち,denser,濃く,lighter,薄く,36,40,none
+34,Which do you prefer?,どっちが好き？,broom,ほうき,vacuum,掃除機,42,37,none
+35,Have you ever killed a fly with a rubber band?,ハ工を輪ゴムで仕留めたことある？,yes,はい,no,いいえ,39,43,none
+36,Do you want to live longer than others?,他人より長生きがしたい,yes,はい,no,いいえ,38,34,none
+37,Do you have something you like which you used to do not like?,昔は嫌いだったけど今は好きなものある？,yes,はい,no,いいえ,43,38,none
+38,Do you think you have things you dislike more than things you like?,好きなものより嫌いなものの方が多い,yes,はい,no,いいえ,41,35,none
+39,Do you need a TV?,テレビが無いと困る？,yes,はい,no,いいえ,45,40,none
+40,Do you often turn off your PC? or keep it on?,パソコンの電源ってよく切る？つけっぱなし?,often turn it off,よく切る,keep it on,つけっばなし,42,44,none
+41,Is the food your parents make bad?,母親/父親のご飯が不味い,yes,はい,no,いいえ,46,44,none
+42,If you see a white dot on a black paper do you think the dot is a hole?,黒い紙に白い点があったらそれは穴だと思う？,yes,はい,no it is a light,いいえ光っています,41,48,img/white.JPG
+43,Do you have a plan for the next holiday?,次の休日の予定は決まってる？,yes,はい,no,いいえ,47,39,none
+44,If it is still there do you want to visit?,まだやってたら行きたい？,yes,はい,no,いいえ,49,46,none
+45,Can you speak English?,英語しゃべれる？,yes,はい,no,いいえ,A+,A-,none
+46,Do you dislike foreigners?,外国人が嫌い,yes,はい,no,いいえ,CC,48,none
+47,Which describes you better?,どっちに近い？,100%,100%,1%,1%,K2,50,none
+48,Do you consider this paper is white?,この折り紙は白色だと思う？,yes,はい,no,いいえ,47,X,img/paper.JPG
+49,Do you think flowers are beautiful?,花は綺麗だと思う？,yes,はい,no,いいえ,45,AA,none
+50,Do you think the weather tomorrow is good?,明日はいい天気だと思う？,yes,はい,no,いいえ,W,49,img/tenki.JPG
