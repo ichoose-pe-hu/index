@@ -59,7 +59,7 @@ fclose($fp);
   transform:translate(-50%,-50%);
 }
 </style>
-<title>Answer 50 Questions | by creative, community space ∧°┐</title>
+<title>50 Questions | by A+A- AA CC K2 X W</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
