@@ -37,7 +37,7 @@ fclose($fp);
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="styles.css" />
-<link rel="stylesheet" type="text/css" href="../50q.css" />
+<link rel="stylesheet" type="text/css" href="/50q.css" />
 <title>Answer 50 Questions | by creative, community space ∧°┐</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
