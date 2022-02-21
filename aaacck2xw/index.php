@@ -155,7 +155,7 @@ Let's see what type you might be.<br/>
 <h3>We create a collection of<br/><i><a href="https://creative-community.space/50q/">50 Questions</a></i></h3>
 <h1>This 50 Questions Curated by creative, community space <a class="pehu" href="https://creative-community.space/pehu/">∧°┐</a></h1>
 </div>
-<img src="greeting.jpg" width="100%">
+<a href="http://vg.pe.hu/jp/show/aaacck2xw.html"><img src="greeting.jpg" width="100%"></a>
 
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript" src="http://ichoose.pe.hu/js/main.js"></script>
