@@ -26,7 +26,7 @@ u {font-size: 120%; font-weight: normal;}
 #about #purpose {
   width:85%;
   padding:0 2.5%;
-  margin:auto;
+  margin:0 auto 7.5%;
   border:solid 0.25vw #000;
 }
 #about #contents {
@@ -37,7 +37,7 @@ u {font-size: 120%; font-weight: normal;}
 }
 #about #more {
   width:90%;
-  margin: auto;
+  margin:5% auto;
   clear:both;
   font-size:1.75vw;
 }
