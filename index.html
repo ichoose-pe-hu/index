@@ -1,149 +1,212 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<title>i choose | The Answers are always inside of you</title>
+    <title>i choose | The Answers are always inside of you</title>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9EL97V4GV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9EL97V4GV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-Z9EL97V4GV');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="i chooseは、創造的チャレンジへの積極性を養い、従来の価値観／方法にとらわれない開かれた考え方を養うことを目的とする創造的娯楽ゲームです。">
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        gtag('config', 'G-Z9EL97V4GV');
+    </script>
 
-<link rel="icon" href="logo.png">
-<link rel="stylesheet" href="styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="i chooseは、創造的チャレンジへの積極性を養い、従来の価値観／方法にとらわれない開かれた考え方を養うことを目的とする創造的娯楽ゲームです。">
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
-<style>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="styles.css" />
 
-#page_cover {
-  position:relative;
-  width:100%;
-  height:100vh;
-  margin:0; padding:0;
-}
-#bg {
-  position:absolute;
-  width:100%;
-  height:100vh;
-  z-index:-10;
-  margin:0; padding:0;
-}
-#headline,
-#inside,
-#qr,
-#bg img {
-  position:absolute;
-  margin:0; padding:0;
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
-}
-#headline {
-  top: 25%;
-  left: 50%;
-  z-index:5;
-  width:75%;
-}
-#qr {
-  top: 60%;
-  left: 50%;
-  z-index:25;
-  width:55vw;
-}
-#bg img {
-  position:fixed;
-  top: 50%;
-  left: 50%;
-  width:100%;
-  min-height:100%;
-}
-#you {
-  position:absolute;
-  z-index:10;
-  bottom:0; left:0;
-  width:100%;
-}
-#introduction,
-#faqs,
-#howto_q {
-  background-color: #fff;
-  min-height:100vh;
-}
-.print {
-  position: absolute;
-  width:100%;
-  font-size:3.5vw;
-}
-#qr,
-.print
-{display:none;}
-
-@media print{
-.print, #qr {display: block;}
-.top, .today {display: none;}
-#ichoose img {height:100vh;}
-}
-</style>
+    <style>
+        #page_cover {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            z-index: 1;
+        }
+        
+        #calendar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #bg {
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: -10;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #headline,
+        #inside,
+        #qr,
+        #bg img {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        #headline {
+            top: 25%;
+            left: 50%;
+            z-index: 5;
+            width: 75%;
+        }
+        
+        #qr {
+            top: 60%;
+            left: 50%;
+            z-index: 25;
+            width: 55vw;
+        }
+        
+        #bg img {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            min-height: 100%;
+        }
+        
+        #you {
+            position: absolute;
+            z-index: 10;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        
+        #introduction,
+        #faqs,
+        #howto_q {
+            background-color: #fff;
+            min-height: 100vh;
+        }
+        
+        .print {
+            position: absolute;
+            width: 100%;
+            font-size: 3.5vw;
+        }
+        
+        #qr,
+        .print,
+        #calendar,
+        .open #page_cover {
+            display: none;
+        }
+        
+        .open #calendar {
+            display: block;
+        }
+        
+        @media print {
+            .print,
+            #qr {
+                display: block;
+            }
+            .top,
+            .today {
+                display: none;
+            }
+            #ichoose img {
+                height: 100vh;
+            }
+        }
+    </style>
 </head>
-<body>
 
-<div id="bg" class="randomImg"></div>
-<h2 class="top"><a onclick="obj=document.getElementById('menu').style; obj.display=(obj.display=='block')?'none':'block';"><u>How to</u></a></h2>
-<h2 class="today"><u><a href="https://creative-community.space/pehu/31q/">31Q</a></u>
-</h2>
-<div id="menu">
-  <span>Under Construction</span>
-  <!--
+<body id="box">
+
+    <div id="bg" class="randomImg"></div>
+    <h2 class="top"><a onclick="obj=document.getElementById('menu').style; obj.display=(obj.display=='block')?'none':'block';"><u>How to</u></a></h2>
+    <h2 class="today"><u><a id="btn">31Q</a></u>
+    </h2>
+    <div id="menu">
+        <span>Under Construction</span>
+        <!--
     <span><a href="#introduction">Introduction</a></span>
     <span><a href="">10 Questions</a></span>
     <span><a href="">50 Questions</a></span>
   -->
-</div>
+    </div>
 
-<div id="page_cover">
-<h1 class="print">The Answers are always inside of you</h1>
-<a href="http://ichoose.pe.hu/"><h1 id="headline">ichoose.pe.hu</h1></a>
-<h1 id="qr"><img src="qr.png" width="100%"></h1>
-<div id="you">
-<h1>by creative, community space <b class="pehu"><a href="https://creative-community.space/pehu/">∧°┐</a></b></h1>
-</div>
-</div>
+    <div id="page_cover">
+        <h1 class="print">The Answers are always inside of you</h1>
+        <a href="http://ichoose.pe.hu/">
+            <h1 id="headline">ichoose.pe.hu</h1>
+        </a>
+        <h1 id="qr"><img src="qr.png" width="100%"></h1>
+        <div id="you">
+            <h1>by creative, community space
+                <b class="pehu"><a href="https://creative-community.space/pehu/">∧°┐</a></b>
+            </h1>
+        </div>
+    </div>
 
-<div id="introduction"></div>
+    <div id="calendar"></div>
 
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/jquery.arctext.js"></script>
-<script type="text/javascript">
-  $(function(){
-  $("#introduction").load("imagine/");
-  })
-  
-  const sampleImg = [
-  "imagine/000.jpeg"
-  ];
-  
-  function sample(randomArray) {
-    var random =
-    randomArray[Math.floor(Math.random() * randomArray.length)];
-    console.log(random);
-    return random;
-  }
-  function imgGenerator() {
-    var img = `<img src="${sample(sampleImg)}">`;
-    document.querySelector("#bg").innerHTML = img;
-  }
-  window.setInterval(function() {
-    imgGenerator();
-  }, 1000);
-</script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.arctext.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#introduction").load("imagine/");
+            $("#calendar").load("https://creative-community.space/pehu/31q/");
+        })
+
+        const sampleImg = [
+            "imagine/000.jpeg"
+        ];
+
+        function sample(randomArray) {
+            var random =
+                randomArray[Math.floor(Math.random() * randomArray.length)];
+            console.log(random);
+            return random;
+        }
+
+        function imgGenerator() {
+            var img = `<img src="${sample(sampleImg)}">`;
+            document.querySelector("#bg").innerHTML = img;
+        }
+        window.setInterval(function() {
+            imgGenerator();
+        }, 1000);
+
+        let btn = document.querySelector('#btn');
+        let box = document.querySelector('#box');
+
+        let btnToggleclass = function(el) {
+            el.classList.toggle('open');
+        }
+
+        btn.addEventListener('click', function() {
+            btnToggleclass(box);
+        }, false);
+    </script>
 </body>
+
 </html>
