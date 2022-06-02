@@ -73,10 +73,14 @@ u {
 
 #about #more .menu {
     display: block;
-    padding: 2.5%;
+    padding: 2.5% 5% 2.5% 0;
     width: 25%;
     float: left;
     font-size: 2vw;
+}
+
+#about #more .menu {
+    text-align: center;
 }
 
 #about #more .text {
