@@ -4,18 +4,10 @@ body {
     margin: 0;
 }
 
-a {
-    color: #000;
-    text-decoration: none;
-}
-
-a:hover {
-    color: red;
-}
-
-u {
-    font-size: 120%;
-    font-weight: normal;
+#about {
+    position: relative;
+    width: 100%;
+    margin: 5vw 0;
 }
 
 #about h1 {
@@ -39,11 +31,9 @@ u {
     font-style: italic;
 }
 
-#about {
-    position: relative;
-    width: 100%;
-    padding: 5vh 0;
-    margin: 0;
+#about u {
+    font-size: 120%;
+    font-weight: normal;
 }
 
 #about #purpose {
@@ -91,10 +81,6 @@ u {
 #about #more ol,
 #about #more ul {
     margin: 7.5%;
-}
-
-#about #more .text .small {
-    zoom: 90%;
 }
 
 #about #more .jp {
