@@ -58,6 +58,17 @@ fclose($fp);
   -webkit-transform:translate(-50%,-50%);
   transform:translate(-50%,-50%);
 }
+
+#fif {
+    position: fixed;
+    z-index: 100;
+    bottom: 1.5vw;
+    left: 5vw;
+    font-size: 2.5vw;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+}
 </style>
 <title>50 Questions | by A+A- AA CC K2 X W</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -150,6 +161,7 @@ Let's see what type you might be.<br/>
 </div>
 <div id="your"></div>
 <p id="re"><a href="#1">Re-Start</a></p>
+<p id="fif"><a href="https://creative-community.space/50q/">50Q</a></p>
 
 <div id="back">
 <h3>We create a collection of<br/><i><a href="https://creative-community.space/50q/">50 Questions</a></i></h3>

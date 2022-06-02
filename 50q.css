@@ -1,201 +1,299 @@
-#main {padding:0; margin:0;}
-hr {border: none;}
-#ichoose {font-size: 2vw;}
+#main {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    border: none;
+}
+
+#ichoose {
+    font-size: 2vw;
+}
+
 #ichoose i {
-  font-size:5.5vw;
-  display:inline-block;
-  margin:5vh 0;
-  color:red;
-  border:solid red;
-  border-radius:50%;
+    font-size: 5.5vw;
+    display: inline-block;
+    margin: 5vh 0;
+    color: red;
+    border: solid red;
+    border-radius: 50%;
 }
-#ichoose h3 {font-size: 2.5vw;}
-#ichoose p {margin-bottom: 5vw;}
-#ichoose b {font-weight: 500; font-size: 150%;}
+
+#ichoose h3 {
+    font-size: 2.5vw;
+}
+
+#ichoose p {
+    margin-bottom: 5vw;
+}
+
+#ichoose b {
+    font-weight: 500;
+    font-size: 150%;
+}
+
 #ichoose .five {
-  padding:5vw 0 0;
-  text-align:center;
+    padding: 5vw 0 0;
+    text-align: center;
 }
-#ichoose .five span {margin:2.5vw;}
+
+#ichoose .five span {
+    margin: 2.5vw;
+}
+
 #ichoose b:before {
-  content: "{";
-  margin-right: 1.5vw;
-  font-size: 200%;
+    content: "{";
+    margin-right: 1.5vw;
+    font-size: 200%;
 }
+
 #ichoose b:after {
-  content: "}";
-  margin-left: 1.5vw;
-  font-size: 200%;
+    content: "}";
+    margin-left: 1.5vw;
+    font-size: 200%;
 }
+
 #howto {
-  border: solid 0.25vw #000;
-  padding:2.5vw;
-  font-size:2vw;
-  text-align:center;
+    border: solid 0.25vw #000;
+    padding: 2.5vw;
+    font-size: 2vw;
+    text-align: center;
 }
+
 .question {
-  position: relative;
-  padding:0;
-  margin:0;
-  text-align:center;
-  height:100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
 }
+
 #ichoose .five span,
 .question b,
 #last .is {
-  font-size:7.5vw;
-  font-weight: 500;
-  padding:0.5vw 0;
-  display:inline-block;
-  width:10vw;
-  height:9vw;
-  border:solid;
-  border-radius:50%;
+    font-size: 7.5vw;
+    font-weight: 500;
+    padding: 0.5vw 0;
+    display: inline-block;
+    width: 10vw;
+    height: 9vw;
+    border: solid;
+    border-radius: 50%;
 }
+
 .question b {
-  top: 25%; left: 50%;
+    top: 25%;
+    left: 50%;
 }
+
 #answer {
-  width:95%;
-  top: 60%; left: 50%;
+    width: 95%;
+    top: 60%;
+    left: 50%;
 }
+
 #answer span {
-  font-size:2vw;
-  display:inline-block;
-  vertical-align: middle;
+    font-size: 2vw;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 #answer u {
-  font-size:4vw;
-  font-style: italic;
+    font-size: 4vw;
+    font-style: italic;
 }
-#answer .or {padding:0 5vw;}
+
+#answer .or {
+    padding: 0 5vw;
+}
 
 .imagine {
-  z-index:-1;
-  top: 50%; left: 50%;
-  height:75%;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    height: 75%;
 }
 
 .question b,
 #answer,
 .imagine {
-  position: absolute;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%);
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
-.question p {font-size:2vw;}
+
+.question p {
+    font-size: 2vw;
+}
 
 :target::before {
-  content: "You are here";
-  position:relative;
-  top:20vh;
-  font-size:2.5vw;
-  color:red;
+    content: "You are here";
+    position: relative;
+    top: 20vh;
+    font-size: 2.5vw;
+    color: red;
 }
 
 #last span {
-  position:absolute;
-  padding-top:1.5vw;
-  display:inline-block;
-  font-size:3vw;
-  border-top: double 1vw #000;
+    position: absolute;
+    padding-top: 1.5vw;
+    display: inline-block;
+    font-size: 3vw;
+    border-top: double 1vw #000;
 }
-#last #left {left:5vw;}
-#last #right {right:5vw;}
+
+#last #left {
+    left: 5vw;
+}
+
+#last #right {
+    right: 5vw;
+}
 
 .type {
-  position:relative;
-  height:100vh;
-  width:100%;
-  padding:0;
-  margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
-.is {
-  text-align:center;
-  pointer-events:none;
-  top: 5%; left: 10%;
-  color:red; border: red;
-}
-.name {
-  font-size:2.5vw;
-  pointer-events:none;
-  float:right;
-  top: 10%; left: 75%;
-}
-.name u {font-size:75%;}
 
-.type .message{
-  width:75%;
-  top: 55%; left: 50%;
-  text-align:center;
-  pointer-events:none;
+.is {
+    text-align: center;
+    pointer-events: none;
+    top: 5%;
+    left: 10%;
+    color: red;
+    border: red;
 }
+
+.name {
+    font-size: 2.5vw;
+    pointer-events: none;
+    float: right;
+    top: 10%;
+    left: 75%;
+}
+
+.name u {
+    font-size: 75%;
+}
+
+.type .message {
+    width: 75%;
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    pointer-events: none;
+}
+
 .type a {
-  border:solid;
-  width:95%; height:95%;
-  top: 50%; left: 50%;
+    border: solid;
+    width: 95%;
+    height: 95%;
+    top: 50%;
+    left: 50%;
 }
+
 .type .message,
 .type a,
-.is, .name {
-  position: absolute;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%);
+.is,
+.name {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
-.type a:hover {background:red;}
+
+.type a:hover {
+    background: red;
+}
 
 #last h2 {
-  clear:both;
-  text-align:center;
-  padding-bottom:2.5vh;
+    clear: both;
+    text-align: center;
+    padding-bottom: 2.5vh;
 }
+
 #re {
-  position:fixed;
-  z-index:100;
-  bottom:1.5vw;
-  right:5vw;
-  font-size:2.5vw;
-  padding:0; margin:0;
-  text-decoration:underline;
+    position: fixed;
+    z-index: 100;
+    bottom: 1.5vw;
+    right: 5vw;
+    font-size: 2.5vw;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
 }
+
 #tips {
-  position:fixed;
-  z-index:100;
-  bottom:1.5vw;
-  left:5vw;
-  font-size:2.5vw;
-  padding:0; margin:0;
-  text-decoration:underline;
-  cursor:pointer;
+    position: fixed;
+    z-index: 100;
+    bottom: 1.5vw;
+    left: 5vw;
+    font-size: 2.5vw;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    cursor: pointer;
 }
+
 #back {
-  position:relative;
-  padding:5vh 0 0;
-  text-align:center;
+    position: relative;
+    padding: 5vh 0 0;
+    text-align: center;
 }
-#back h1 {position:absolute; bottom:0; width:100%; display:none;}
-#back h3 {margin-bottom:15vh;}
+
+#back h1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+
+#back h3 {
+    margin-bottom: 15vh;
+}
+
 #back i a {
-  font-size:5.5vw;
-  display:inline-block;
-  margin:5vh 0 0;
-  color:red;
-  border:solid red;
-  border-radius:50%;
+    font-size: 5.5vw;
+    display: inline-block;
+    margin: 5vh 0 0;
+    color: red;
+    border: solid red;
+    border-radius: 50%;
 }
+
 #back i a:hover {
-  color:#fff;
-  background:red;
-  cursor:pointer;
+    color: #fff;
+    background: red;
+    cursor: pointer;
 }
 
-#headline {position:absolute;}
+#headline {
+    position: absolute;
+}
 
-@media print{
-.no_print, #re, #tips, #back h3 {display:none;}
-#back h1 {display:block;}
-#ichoose {height:90%;}
-.question {max-height:49vh;}
-.type {height:31.5vh;}
-#back {height:31.5vh;}
+@media print {
+    .no_print,
+    #re,
+    #tips,
+    #back h3 {
+        display: none;
+    }
+    #back h1 {
+        display: block;
+    }
+    #ichoose {
+        height: 90%;
+    }
+    .question {
+        max-height: 49vh;
+    }
+    .type {
+        height: 31.5vh;
+    }
+    #back {
+        height: 31.5vh;
+    }
 }
