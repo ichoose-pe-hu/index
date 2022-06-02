@@ -29,6 +29,7 @@
 
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="imagine/styles.css" />
 
     <style>
         #page_cover {
@@ -60,7 +61,7 @@
         }
         
         #bg {
-            position: absolute;
+            position: fixed;
             width: 100%;
             height: 100vh;
             z-index: -10;
@@ -89,7 +90,7 @@
             top: 60%;
             left: 50%;
             z-index: 25;
-            width: 55vw;
+            width: 25vw;
         }
         
         #bg img {
@@ -108,11 +109,17 @@
             width: 100%;
         }
         
-        #introduction,
-        #faqs,
-        #howto_q {
+        #introduction {
+            position: relative;
+            z-index: 10;
+            width: 95%;
+            min-height: 95vh;
             background-color: #fff;
-            min-height: 100vh;
+            margin: 0;
+            padding: 2.5vh 2.5%;
+            top: 0;
+            left: 0;
+            display: none;
         }
         
         .print {
@@ -124,6 +131,7 @@
         #qr,
         .print,
         .open #bg,
+        .open #introduction,
         .open #page_cover {
             display: none;
         }
@@ -138,11 +146,9 @@
                 display: block;
             }
             .top,
-            .today {
+            .today,
+            #introduction {
                 display: none;
-            }
-            #ichoose img {
-                height: 100vh;
             }
         }
     </style>
@@ -153,6 +159,11 @@
     <div id="bg" class="randomImg">
         <img src="imagine/000.jpeg">
     </div>
+
+    <div id="calendar">
+        <iframe src="https://creative-community.space/pehu/31q/"></iframe>
+    </div>
+
     <h2 class="top"><a onclick="obj=document.getElementById('menu').style; obj.display=(obj.display=='block')?'none':'block';"><u>How to</u></a></h2>
     <h2 class="today"><a id="btn"><u>31Q</u></a></h2>
     <div id="menu">
@@ -166,10 +177,10 @@
 
     <div id="page_cover">
         <h1 class="print">The Answers are always inside of you</h1>
-        <a href="http://ichoose.pe.hu/">
+        <a href="#introduction" onclick="obj=document.getElementById('introduction').style; obj.display=(obj.display=='block')?'none':'block';">
             <h1 id="headline">ichoose.pe.hu</h1>
         </a>
-        <h1 id="qr"><img src="qr.png" width="100%"></h1>
+        <p id="qr"><img src="qr.png" width="100%"></p>
         <div id="you">
             <h1>by creative, community space
                 <b class="pehu"><a href="https://creative-community.space/pehu/">∧°┐</a></b>
@@ -177,12 +188,11 @@
         </div>
     </div>
 
-    <div id="calendar">
-        <iframe src="https://creative-community.space/pehu/31q/"></iframe>
-    </div>
+    <div id="introduction"></div>
 
     <script type="text/javascript" src="js/logo.js"></script>
     <script type="text/javascript" src="js/jquery.arctext.js"></script>
+    <script type="text/javascript" src="js/swing.js"></script>
     <script type="text/javascript">
         $(function() {
             $("#introduction").load("imagine/");
