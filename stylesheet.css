@@ -19,10 +19,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5vw;
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem 0 #fff;
     font-weight: 500;
     padding: 0;
-    text-shadow: 0.2vw 0.2vw 0 #fff;
 }
 
 a {
@@ -93,7 +93,7 @@ a:hover {
 
 @media screen and (max-width: 1000px) {
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         text-shadow: 0.1rem 0.1rem 0 #fff;
     }
 }
