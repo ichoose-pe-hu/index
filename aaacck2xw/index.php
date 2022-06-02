@@ -153,14 +153,16 @@ Let's see what type you might be.<br/>
 
 <div id="back">
 <h3>We create a collection of<br/><i><a href="https://creative-community.space/50q/">50 Questions</a></i></h3>
-<h1>This 50 Questions Curated by creative, community space <a class="pehu" href="https://creative-community.space/pehu/">∧°┐</a></h1>
+<h1>This 50 Questions Curated by creative, community space
+  <a class="pehu" href="https://creative-community.space/pehu/">∧°┐</a>
+</h1>
 </div>
 <a href="http://vg.pe.hu/jp/show/aaacck2xw.html"><img src="greeting.jpg" width="100%"></a>
 
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/main.js"></script>
-<script type="text/javascript" src="http://ichoose.pe.hu/js/jquery.arctext.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/logo.js"></script>
+<script type="text/javascript" src="/js/jquery.arctext.js"></script>
 <!-- jQuery.jsの読み込み -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 
