@@ -34,7 +34,7 @@ fclose($fp);
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="/styles.css" />
+<link rel="stylesheet" type="text/css" href="/top.css" />
 <link rel="stylesheet" type="text/css" href="/10q.css" />
 <link rel="stylesheet" type="text/css" href="/print.css" />
 <title>10 Questions | by ささじまかずま</title>
@@ -97,7 +97,7 @@ I wanna be a creative director.
 </div>
 <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 <script type="text/javascript" src="/js/10q.js"></script>
-<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/logo.js"></script>
 <script type="text/javascript" src="/js/jquery.arctext.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
