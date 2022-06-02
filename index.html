@@ -42,11 +42,21 @@
         
         #calendar {
             position: absolute;
-            top: 0;
+            z-index: 1;
+            display: none;
             width: 100%;
             height: 100vh;
             margin: 0;
             padding: 0;
+            top: 0;
+            left: 0;
+            overflow-y: hidden;
+        }
+        
+        #calendar iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
         
         #bg {
@@ -114,7 +124,7 @@
         
         #qr,
         .print,
-        #calendar,
+        .open #bg,
         .open #page_cover {
             display: none;
         }
@@ -141,7 +151,9 @@
 
 <body id="box">
 
-    <div id="bg" class="randomImg"></div>
+    <div id="bg" class="randomImg">
+        <img src="imagine/000.jpeg">
+    </div>
     <h2 class="top"><a onclick="obj=document.getElementById('menu').style; obj.display=(obj.display=='block')?'none':'block';"><u>How to</u></a></h2>
     <h2 class="today"><u><a id="btn">31Q</a></u>
     </h2>
@@ -167,18 +179,20 @@
         </div>
     </div>
 
-    <div id="calendar"></div>
+    <div id="calendar">
+        <iframe src="https://creative-community.space/pehu/31q/"></iframe>
+    </div>
 
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/jquery.arctext.js"></script>
     <script type="text/javascript">
         $(function() {
             $("#introduction").load("imagine/");
-            $("#calendar").load("https://creative-community.space/pehu/31q/");
         })
 
         const sampleImg = [
-            "imagine/000.jpeg"
+            "imagine/000.jpeg",
+            "imagine/001.jpeg"
         ];
 
         function sample(randomArray) {
@@ -194,7 +208,7 @@
         }
         window.setInterval(function() {
             imgGenerator();
-        }, 1000);
+        }, 2500);
 
         let btn = document.querySelector('#btn');
         let box = document.querySelector('#box');
